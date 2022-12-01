@@ -4,6 +4,7 @@ import Link from "@mui/material/Link";
 import AppBar from "../components/AppBar";
 import Toolbar from "../components/Toolbar";
 import { Link as RouterLink } from "react-router-dom";
+import Logo from '../../../anaz-2.png'
 
 const rightLink = {
   fontSize: 16,
@@ -25,28 +26,9 @@ function AppAppBar() {
             to="/"
             sx={{ fontSize: 24 }}
           >
-            {"onepirate"}
+            <object style={{marginTop:'1rem'}} data={Logo} height="150" width="150" />
           </Link>
           <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
-            <Link
-              color="inherit"
-              variant="h6"
-              underline="none"
-              component={RouterLink}
-              to="/sign-in/"
-              sx={rightLink}
-            >
-              {"Sign In"}
-            </Link>
-            <Link
-              variant="h6"
-              underline="none"
-              component={RouterLink}
-              to="/sign-up/"
-              sx={{ ...rightLink, color: "secondary.main" }}
-            >
-              {"Sign Up"}
-            </Link>
           </Box>
         </Toolbar>
       </AppBar>
