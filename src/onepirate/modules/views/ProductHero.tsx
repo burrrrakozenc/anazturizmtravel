@@ -1,8 +1,6 @@
 import * as React from "react";
-import Button from "../components/Button";
 import Typography from "../components/Typography";
 import ProductHeroLayout from "./ProductHeroLayout";
-import { Link as RouterLink } from "react-router-dom";
 
 const backgroundImage =
   "https://www.greecetravel.com/turkey/istanbul/istanbul-ferries001.jpg";

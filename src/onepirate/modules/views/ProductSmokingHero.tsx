@@ -5,7 +5,6 @@ import Container from "@mui/material/Container";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Link from "@mui/material/Link";
 import Typography from "../components/Typography";
-import {useLocation} from "react-router";
 
 function ProductSmokingHero() {
   return (
