@@ -75,7 +75,7 @@ function ProductCTA() {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12037.638547820527!2d28.9323602!3d41.0381702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x31480b82223c5a08!2sFlatofis%20Hali%C3%A7!5e0!3m2!1str!2str!4v1669938268833!5m2!1str!2str"
               width="320" height="240" loading="lazy"
-              key="unique-label-top-map"
+              title="myFrame"
               referrerPolicy="no-referrer-when-downgrade"></iframe>
           </Grid>
           {/*  item*/}
