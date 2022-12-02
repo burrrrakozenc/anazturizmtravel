@@ -29,6 +29,26 @@ function AppAppBar() {
             <object style={{marginTop:'1rem'}} data={Logo} height="150" width="150" />
           </Link>
           <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
+            <Link
+              color="inherit"
+              variant="h6"
+              underline="none"
+              component={RouterLink}
+              to="/"
+              sx={rightLink}
+            >
+              {"ANA SAYFA"}
+            </Link>
+            <Link
+              color="inherit"
+              variant="h6"
+              underline="none"
+              component={RouterLink}
+              to="/terms"
+              sx={rightLink}
+            >
+              {"İLETİŞİM"}
+            </Link>
           </Box>
         </Toolbar>
       </AppBar>

@@ -5,7 +5,7 @@ import ProductHeroLayout from "./ProductHeroLayout";
 import { Link as RouterLink } from "react-router-dom";
 
 const backgroundImage =
-  "https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80";
+  "https://www.greecetravel.com/turkey/istanbul/istanbul-ferries001.jpg";
 
 export default function ProductHero() {
   return (
@@ -23,7 +23,7 @@ export default function ProductHero() {
         alt="increase priority"
       />
       <Typography color="inherit" align="center" variant="h2" marked="center">
-        Upgrade your Sundays
+        ANAZ TURİZM & TRAVEL
       </Typography>
       <Typography
         color="inherit"
@@ -31,20 +31,20 @@ export default function ProductHero() {
         variant="h5"
         sx={{ mb: 4, mt: { sx: 4, sm: 10 } }}
       >
-        Enjoy secret offers up to -70% off the best luxury hotels every Sunday.
+        Şehirdeki Yardımcınız Biz Olalım
       </Typography>
-      <Button
-        color="secondary"
-        variant="contained"
-        size="large"
-        component={RouterLink}
-        to="/sign-up/"
-        sx={{ minWidth: 200 }}
-      >
-        Register
-      </Button>
+      {/*<Button*/}
+      {/*  color="secondary"*/}
+      {/*  variant="contained"*/}
+      {/*  size="large"*/}
+      {/*  component={RouterLink}*/}
+      {/*  to="/sign-up/"*/}
+      {/*  sx={{ minWidth: 200 }}*/}
+      {/*>*/}
+      {/*  Register*/}
+      {/*</Button>*/}
       <Typography variant="body2" color="inherit" sx={{ mt: 2 }}>
-        Discover the experience
+        Şehri keşfetmeye hazır olun!
       </Typography>
     </ProductHeroLayout>
   );

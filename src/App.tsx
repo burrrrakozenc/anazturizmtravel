@@ -7,6 +7,7 @@ import SignIn from "./onepirate/SignIn";
 import SignUp from "./onepirate/SignUp";
 import ForgotPassword from "./onepirate/ForgotPassword";
 import Terms from "./onepirate/Terms";
+import Contact from "./onepirate/Contact";
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/">
             <Home />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </Router>

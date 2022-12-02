@@ -55,57 +55,57 @@ const ImageIconButton = styled(ButtonBase)(({ theme }) => ({
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=400&q=80",
-    title: "Snorkeling",
+    url: "https://i.lezzet.com.tr/images-xxlarge-secondary/bursa-piknik-alanlari-bursanin-en-iyi-10-piknik-alani-04306c85-29cc-4dd2-8f79-0c8ca3609f52.jpg",
+    title: "Bursa",
     width: "40%",
   },
   {
-    url: "https://images.unsplash.com/photo-1531299204812-e6d44d9a185c?auto=format&fit=crop&w=400&q=80",
-    title: "Massage",
+    url: "https://www.memurlar.net/common/news/images/337750/tcdd-den-sirkeci-gari-aciklamasi.jpg",
+    title: "SİRKECİ",
     width: "20%",
   },
   {
-    url: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=400&q=80",
-    title: "Hiking",
+    url: "https://pix10.agoda.net/hotelImages/290/29007546/29007546_211130152400108897328.jpg?ca=24&ce=0&s=1024x768",
+    title: "Sapanca",
     width: "40%",
   },
   {
-    url: "https://images.unsplash.com/photo-1453747063559-36695c8771bd?auto=format&fit=crop&w=400&q=80",
-    title: "Tour",
+    url: "https://manesol.com/uploads/sultanahmet-gezilecek-yerler.jpg",
+    title: "sultanahmet",
     width: "38%",
   },
   {
-    url: "https://images.unsplash.com/photo-1523309996740-d5315f9cc28b?auto=format&fit=crop&w=400&q=80",
-    title: "Gastronomy",
+    url: "https://cdn1.ntv.com.tr/gorsel/3QzZDX1sd0mLy3ZEY7r-fQ.jpg?width=1000&mode=crop&scale=both",
+    title: "BALON TURLARI",
     width: "38%",
   },
   {
-    url: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=400&q=80",
-    title: "Shopping",
+    url: "https://iasbh.tmgrup.com.tr/ee4c62/752/395/0/104/723/484?u=https://isbh.tmgrup.com.tr/sbh/2022/07/21/kapadokya-nerede-kapadokya-hangi-ilde-nereye-bagli-ve-nasil-gidilir-k1-1658414578552.jpg",
+    title: "KAPADOKYA",
     width: "24%",
   },
-  {
-    url: "https://images.unsplash.com/photo-1506941433945-99a2aa4bd50a?auto=format&fit=crop&w=400&q=80",
-    title: "Walking",
-    width: "40%",
-  },
-  {
-    url: "https://images.unsplash.com/photo-1533727937480-da3a97967e95?auto=format&fit=crop&w=400&q=80",
-    title: "Fitness",
-    width: "20%",
-  },
-  {
-    url: "https://images.unsplash.com/photo-1518136247453-74e7b5265980?auto=format&fit=crop&w=400&q=80",
-    title: "Reading",
-    width: "40%",
-  },
+  // {
+  //   url: "https://images.unsplash.com/photo-1506941433945-99a2aa4bd50a?auto=format&fit=crop&w=400&q=80",
+  //   title: "Walking",
+  //   width: "40%",
+  // },
+  // {
+  //   url: "https://images.unsplash.com/photo-1533727937480-da3a97967e95?auto=format&fit=crop&w=400&q=80",
+  //   title: "Fitness",
+  //   width: "20%",
+  // },
+  // {
+  //   url: "https://images.unsplash.com/photo-1518136247453-74e7b5265980?auto=format&fit=crop&w=400&q=80",
+  //   title: "Reading",
+  //   width: "40%",
+  // },
 ];
 
 export default function ProductCategories() {
   return (
     <Container component="section" sx={{ mt: 8, mb: 4 }}>
       <Typography variant="h4" marked="center" align="center" component="h2">
-        For all tastes and all desires
+        NEREDE OLURSANIZ OLUN, 7/24 SİZE BİR BİR TELEFON KADAR YAKINIZ
       </Typography>
       <Box sx={{ mt: 8, display: "flex", flexWrap: "wrap" }}>
         {images.map((image) => (

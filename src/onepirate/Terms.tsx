@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import Markdown from "./modules/components/Markdown";
-import Typography from "./modules/components/Typography";
+// import Markdown from "./modules/components/Markdown";
+// import Typography from "./modules/components/Typography";
+import ProductCTA from "./modules/views/ProductCTA";
 import AppAppBar from "./modules/views/AppAppBar";
 import AppFooter from "./modules/views/AppFooter";
 import withRoot from "./modules/withRoot";
@@ -27,10 +28,11 @@ function Terms() {
       <AppAppBar />
       <Container>
         <Box sx={{ mt: 7, mb: 12 }}>
-          <Typography variant="h3" gutterBottom marked="center" align="center">
-            Terms
-          </Typography>
-          <Markdown>{markdown}</Markdown>
+        <ProductCTA/>
+        {/*  <Typography variant="h3" gutterBottom marked="center" align="center">*/}
+        {/*    Terms*/}
+        {/*  </Typography>*/}
+        {/*  <Markdown>{markdown}</Markdown>*/}
         </Box>
       </Container>
       <AppFooter />
