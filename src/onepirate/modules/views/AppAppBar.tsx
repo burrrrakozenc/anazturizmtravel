@@ -26,7 +26,7 @@ function AppAppBar() {
             to="/"
             sx={{ fontSize: 24 }}
           >
-            <object style={{marginTop:'1rem'}} data={Logo} height="150" width="150" />
+            <object style={{marginTop:'1rem'}} data={Logo} height="150" width="150" aria-label="logo-anaz" />
           </Link>
           <Box sx={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
             <Link
